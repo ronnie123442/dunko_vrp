@@ -451,11 +451,11 @@ cfg.garage_types = {
   },
   ["Cadet"] = {
     _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Cadet.vehicle"}},
-    ["police7"] = {"police",0, "police"},
+    ["police7"] = {"police",0, "police"}
   },
   ["Bounty"] = {
     _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Bounty.vehicle"}},
-    ["fbi"] = {"Unmarked",0, "police"},
+    ["fbi"] = {"Unmarked",0, "police"}
   },
   ["emergency"] = {
     _config = {vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
@@ -471,18 +471,38 @@ cfg.garage_types = {
     _config = {vtype="car",blipid=43,blipcolor=1,radius=5.1,permissions={"emergency.vehicle"}},
     ["supervolito2"] = {"EMS",0, "emergency"}
   },
+  ["Pilotla"] = {
+    _config = {vtype="plane",blipid=16,blipcolor=30,permissions={"pilot.vehicle"}},
+    ["jet"] = {"Boeing 747",0, "jet"}
+  },
+  ["Pilotsa"] = {
+    _config = {vtype="plane",blipid=16,blipcolor=30,permissions={"pilot.vehicle"}},
+     ["mammatus"] = {"Small Cargo",0, "mammatus"}
+  },
+  ["airP"] = {
+    _config = {vtype="plane",blipid=16,blipcolor=30,permissions={"air.vehicle"}},
+    ["vestra"] = {"Plane",0, "vestra"}
+  },
+  ["airH"] = {
+    _config = {vtype="plane",blipid=43,blipcolor=30,permissions={"air.vehicle"}},
+     ["volatus"] = {"Helicopter",0, "volatus"}
+  }, 
   ["uber"] = {
     _config = {vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}},
-    ["surge"] = {"Surge",0, ""},
+    ["surge"] = {"Surge",0, "surge"}
   },
   ["Lawyer"] = {
     _config = {vtype="car",blipid=50,blipcolor=7,permissions={"Lawyer.vehicle"}},
-    ["panto"] = {"Panto", 0, ""},
+    ["panto"] = {"Panto", 0, "panto"}
   },
   ["delivery"] = {
     _config = {vtype="bike",blipid=85,blipcolor=31,permissions={"delivery.vehicle"}},
     ["faggio3"] = {"faggio3",0, "faggio3"}
   },
+  -- ["santa"] = {
+    -- _config = {vtype="bike",blipid=85,blipcolor=31,permissions={"santa.vehicle"}},
+    -- ["hydra"] = {"Santa's Sled",0, "hydra"}
+  -- },  
   ["repair"] = {
     _config = {vtype="car",blipid=50,blipcolor=31,permissions={"repair.vehicle"}},
     ["towtruck2"] = {"towtruck2",0, "towtruck2"},
@@ -491,6 +511,10 @@ cfg.garage_types = {
   ["bankdriver"] = {
     _config = {vtype="car",blipid=67,blipcolor=4,permissions={"bankdriver.vehicle"}},
     ["stockade"] = {"stockade",0, "stockade"}
+  },
+  ["Trash Collector"] = {
+    _config = {vtype="car",blipid=67,blipcolor=4,permissions={"trash.vehicle"}},
+    ["trash"] = {"Truck",0, "trash"}
   },
   ["Medical Driver"] = {
     _config = {vtype="car",blipid=67,blipcolor=4,permissions={"medical.vehicle"}},
@@ -545,6 +569,10 @@ cfg.garages = {
   {"House Garage",-121.71002960205,509.85540771484,142.5652923584},
   {"House Garage",-188.32077026367,502.87573242188,134.23774719238},
   {"House Garage",1366.5837402344,1147.4722900391,113.41327667236 },
+  {"House Garage",-36.333103179932,-674.09722900391,32.33805847168},
+  {"House Garage",1274.7135009766,-1732.7083740234,52.04536819458},
+  {"House Garage",34.516819000244,6604.0004882813,32.449085235596},
+  {"House Garage",-555.20428466797,664.56500244141,145.16401672363},
   {"Police Helicopters",449.30340576172,-981.24963378906,43.69165802002}, -- Main PD
   {"Police Helicopters",1770.2171630859,3239.5561523438,42.13171005249}, -- Sandy Shores
   {"Police Helicopters",-475.24264526367,5988.7353515625,31.336685180664}, -- Paleto Bay
@@ -552,8 +580,15 @@ cfg.garages = {
   {"EMS Helicopters",1770.2171630859,3239.5561523438,42.13171005249}, -- Sandy Shores
   {"EMS Helicopters",-475.24264526367,5988.7353515625,31.336685180664}, -- Paleto Bay  
   {"Fisher's Boat",1508.8854980469,3908.5732421875,30.031631469727},
-  {"Medical Driver",-319.82263183594,-942.8408203125,31.080617904663}
-  
+  {"Medical Driver",-319.82263183594,-942.8408203125,31.080617904663},
+  {"Pilotsa",-901.70129394531,-3293.984375,13.944430351257},
+  {"Pilotsa",2128.9069824219,4806.134765625,41.168750762939},
+  {"Pilotsa",1734.9053955078,3297.9689941406,41.223503112793},
+  {"airP",2128.9069824219,4806.134765625,41.168750762939},
+  {"airH",-745.14343261719,-1468.5361328125,5.0005240440369},
+  {"airP",1734.9053955078,3297.9689941406,41.223503112793},
+  -- {"Santa",-1345.333984375,-2692.7885742188,13.944937705994}  
+  {"Trash Collector",768.86297607422,-1410.4896240234,26.502605438232}
  
   
   
